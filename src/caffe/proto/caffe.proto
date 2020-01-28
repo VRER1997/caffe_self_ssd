@@ -104,7 +104,7 @@ message AnnotationGroup {
   repeated Annotation annotation = 2;
 }
 
-message AnnotationDatum {
+message AnnotatedDatum {
   enum AnnotationType {
     BBox = 0;
   }
